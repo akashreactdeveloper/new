@@ -1,0 +1,535 @@
+.add-integration {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 10px;
+  padding-inline: 2rem;
+}
+
+.add-integrate-button {
+  display: flex;
+  background-color: #006fb9;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  justify-content: center;
+  align-items: center;
+  height: 38px;
+  width: 127px;
+  transition: background-color 0.3s ease;
+}
+
+.search-integration {
+  padding: 7px 16px 7px 16px;
+  height: 40px;
+  width: 303px;
+  border: 1px solid #424242;
+  border-radius: 4px;
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+}
+
+.search-integration input {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 15px;
+}
+
+.integration-table-container {
+  margin-top: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, sans-serif;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead th {
+  text-align: left;
+  font-weight: 600;
+  color: #333;
+  padding: 15px 20px;
+  background-color: #97c6e593;
+}
+
+tbody td {
+  text-align: left;
+  padding: 15px 20px;
+  color: #666;
+}
+
+.integration-row {
+  cursor: pointer;
+  width: 100%;
+}
+.integrationn-management {
+  display: flex;
+  width: 100%;
+  gap: 0.5rem;
+}
+
+.integrationn-management a {
+  text-decoration: none;
+  color: #006fb9;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.integration-row:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+.integration-row:hover {
+  background-color: #f1f1f1;
+  transition: background-color 0.3s ease;
+}
+
+.integration-number {
+  width: 50px;
+}
+
+.integration-name {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  gap: 0.6rem;
+}
+.integration-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.integration-logo img {
+  width: 27px;
+  height: 27px;
+}
+
+.integration-function-icon {
+  color: #006fb9;
+  display: flex;
+  flex: row;
+  align-items: center;
+  gap: 2rem;
+}
+
+.integration-source {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.created-date {
+  width: 200px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.integration-count-header {
+  width: 15%;
+}
+
+.integration-table th.integration-name-header {
+  width: 25%;
+}
+
+.integration-table th.created-header,
+.integration-table td.created-date {
+  width: 15%;
+}
+
+.integration-table th.integration-header,
+.integration-table td .manage-link {
+  width: 25%;
+}
+.integration-table th.integration-function-icon-header,
+.integration-table td .manage-link {
+  width: 20%;
+}
+
+.refresh-button {
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.refresh-button:hover {
+  background-color: #1557b0;
+}
+
+.integration-company {
+  padding-block: 20px;
+  padding-inline: 2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+  .integration-create {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .create-integration-button {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  thead th,
+  tbody td {
+    padding: 10px;
+  }
+
+  .integration-number,
+  .created-date {
+    width: auto;
+  }
+
+  .integration-table th.integration-name-header,
+  .integration-table td.integration-name,
+  .integration-table th.created-header,
+  .integration-table td.created-date,
+  .integration-table th.action-header,
+  .integration-table td .manage-link {
+    width: auto;
+  }
+
+  .refresh-button {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+
+.integration-company {
+  padding-block: 20px;
+  padding-inline: 2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.company-item {
+  cursor: pointer;
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+
+.company-item.active {
+  color: #006fb9;
+  font-weight: 600;
+}
+
+.integration-funcIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.select-account-integration {
+  padding-inline: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.select-account-head {
+  font-weight: 600;
+  width: max-content;
+}
+
+.account-integration-list {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.form-input-integration,
+.form-select-integration {
+  width: 22.5rem;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  color: gray;
+  margin-left: 1.25rem;
+  margin-block: 1rem;
+}
+
+.toggle {
+  position: relative;
+  height: 25px; /* Decreased height */
+  width: 50px; /* Decreased width */
+  border-radius: 12.5px; /* Adjusted border-radius */
+  overflow: hidden;
+  border: none;
+  background-color: white; /* White dot */
+  cursor: pointer;
+  transition: background-color 0.4s ease; /* Smooth background transition */
+}
+
+.toggle-state {
+  display: none; /* Hide the checkbox input */
+}
+
+.indicator {
+  position: absolute;
+  height: 21px; /* Slightly smaller than the toggle */
+  width: 21px; /* Create a circular shape */
+
+  background-color: white; /* Background for active state */
+  /* Default background for inactive state */
+  border-radius: 50%; /* Make it a circle */
+  top: 2px; /* Center the dot vertically */
+  left: 2px; /* Position at the start */
+  transition: transform 0.4s ease, background-color 0.1s ease; /* Smooth sliding transition */
+}
+
+.toggle-state:checked ~ .indicator {
+  background-color: white; /* Background for active state */
+  transform: translateX(25px); /* Slide the dot to the right */
+}
+
+.integration-app {
+  padding: 1.5rem 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.integration-app-list {
+  /* flex: 1; */
+  width: 18.5rem;
+  min-height: 13rem;
+  height: max-content;
+  padding: 1.5rem;
+  border: 1px solid black;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.label {
+}
+
+.integration-app-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.integration-app-icon img {
+  height: 54px;
+  width: 54px;
+}
+
+.integration-app-name {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.integration-app-description {
+  font-size: 15px;
+  color: #676767;
+}
+/* Toggle Styles */
+.app-toggle {
+  position: relative;
+  width: 60px; /* Increased width */
+  height: 30px; /* Increased height */
+  border-radius: 15px; /* Adjusted border-radius */
+  background-color: #d8d8d8; /* Default background for inactive state */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.app-toggle-state {
+  display: none; /* Hide the checkbox input */
+}
+
+.app-indicator {
+  position: absolute;
+  width: 26px; /* Increased width */
+  height: 26px; /* Increased height */
+  border-radius: 50%;
+  background: white;
+  top: 2px;
+  left: 2px;
+  transition: transform 0.3s ease;
+}
+
+.app-toggle-state:checked + .app-indicator {
+  transform: translateX(30px); /* Move the dot to the right */
+}
+
+.app-toggle-state:checked ~ .app-toggle {
+  background-color: blue; /* Background for active state */
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensure it's above other elements */
+}
+
+.modal-container {
+  background: white;
+  border-radius: 8px;
+  width: 400px;
+  max-width: 90%;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.modal-header {
+  align-items: center;
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.close-modal {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+.modal-header h2 {
+  font-size: 18px;
+  margin: 0;
+  color: #333;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+  color: #666;
+  transition: color 0.2s;
+}
+
+.delete-button {
+  background: none;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  color: #666;
+  transition: color 0.2s;
+}
+
+.close-button:hover {
+  color: #000;
+}
+
+.modal-body {
+  margin-bottom: 20px;
+  width: 90%;
+  margin-inline: auto;
+}
+
+.modal-input {
+  width: 94%;
+  border: 1px solid black;
+
+  padding: 11px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-inline: auto;
+  font-size: 14px;
+  color: gray;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.cancel-button,
+.invite-button {
+  padding: 10px 20px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cancel-button {
+  background: white;
+  color: #006fb9;
+  border: 1px solid #006fb9;
+}
+
+.invite-button {
+  background: #006fb9;
+  color: white;
+}
+
+.invite-button:hover {
+  background: #005a9e;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.names-list {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.name-item {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.name-item:hover {
+  transition: background-color 0.3s ease;
+  background-color: #e8e8e8;
+  cursor: pointer;
+  color: rgb(66, 66, 66);
+}

@@ -1,0 +1,87 @@
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: white;
+  font-family: Arial, sans-serif;
+  margin-inline: 6rem;
+  margin-block: 2rem;
+  height: max-content;
+}
+
+/* Logo Section */
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.navbar-logo-icon {
+  margin-right: 0.5rem;
+}
+
+.navbar-logo-text {
+  font-size: 1.2rem;
+  color: black;
+}
+
+/* Buttons Section */
+.navbar-buttons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navbar-link {
+  font-size: 16px;
+  color: #006fb9;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.navbar-link:hover {
+  text-decoration: underline;
+}
+
+.navbar-login {
+  background-color: white;
+  border: 1px solid #006fb9;
+  color: #006fb9;
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.navbar-login:hover {
+  color: white;
+  background-color: #006fb9;
+}
+
+.navbar-get-started {
+  background-color: #006fb9;
+  color: white;
+  padding: 11.5px 31.5px;
+  border-radius: 8px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.navbar-get-started:hover {
+  background-color: #003c82;
+}
+
+@media (max-width: 890px) {
+  .navbar {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+}

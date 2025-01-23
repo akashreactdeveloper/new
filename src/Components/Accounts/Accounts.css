@@ -1,0 +1,356 @@
+.accounts-create {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+  padding-block: 10px;
+}
+
+.create-account-button {
+  display: flex;
+  background-color: #006fb9;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  justify-content: center;
+  align-items: center;
+  height: 38px;
+  width: 127px;
+  margin-right: 2rem;
+  transition: background-color 0.3s ease;
+}
+
+.create-account-button:hover {
+  background-color: #005a9e;
+}
+
+.account-table-container {
+  margin-top: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, sans-serif;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead th {
+  text-align: left;
+  font-weight: 600;
+  color: #333;
+  padding: 15px 20px;
+  background-color: #97c6e593;
+}
+
+tbody td {
+  text-align: left;
+  padding: 15px 20px;
+  color: #666;
+}
+
+.account-row {
+  cursor: pointer;
+}
+
+.account-row:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+.account-row:hover {
+  background-color: #f1f1f1;
+  transition: background-color 0.3s ease;
+}
+
+.account-number {
+  width: 50px;
+}
+
+.account-name {
+  flex: 1;
+}
+
+.created-date {
+  width: 200px;
+}
+
+.manage-link {
+  text-decoration: none;
+  color: #006fb9;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.manage-link:hover {
+  text-decoration: underline;
+}
+
+.account-count-header {
+  width: 20%;
+}
+
+.accounts-table th.account-name-header,
+.accounts-table td.account-name {
+  width: 30%;
+}
+
+.accounts-table th.created-header,
+.accounts-table td.created-date {
+  width: 30%;
+}
+
+.accounts-table th.action-header,
+.accounts-table td .manage-link {
+  width: 20%;
+}
+
+.refresh-button {
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.refresh-button:hover {
+  background-color: #1557b0;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+  .accounts-create {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .create-account-button {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  thead th,
+  tbody td {
+    padding: 10px;
+  }
+
+  .account-number,
+  .created-date {
+    width: auto;
+  }
+
+  .accounts-table th.account-name-header,
+  .accounts-table td.account-name,
+  .accounts-table th.created-header,
+  .accounts-table td.created-date,
+  .accounts-table th.action-header,
+  .accounts-table td .manage-link {
+    width: auto;
+  }
+
+  .refresh-button {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+
+.form-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.required {
+  color: #ff4444;
+  margin-left: 4px;
+}
+
+.form-input,
+.form-select {
+  width: 95%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #333;
+}
+
+.form-input:focus,
+.form-select:focus {
+  outline: none;
+  border-color: #2d76cc;
+  box-shadow: 0 0 0 2px rgba(45, 118, 204, 0.1);
+}
+
+.section-title {
+  font-size: 20px;
+  color: #333;
+  grid-column: 1 / -1;
+}
+
+.divider {
+  height: 1px;
+  background-color: #e0e0e0;
+  margin: 32px 0;
+  grid-column: 1 / -1;
+}
+
+.submit-button {
+  background-color: #2d76cc;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100px;
+  margin: 24px auto;
+  display: block;
+  margin-top: 4rem;
+}
+
+.form-container button {
+  padding: 12px 104px;
+  text-align: center;
+  width: max-content;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #2461a8;
+}
+
+.submit-button:active {
+  background-color: #1d4c85;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .form-input,
+  .form-select {
+    width: 95%;
+  }
+
+  .submit-button {
+    width: 100px;
+    margin-top: 2rem;
+  }
+
+  .form-container button {
+    padding: 12px 40px;
+  }
+
+  .create-account-button {
+    display: flex;
+    background-color: #006fb9;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    height: 38px;
+    width: 107px;
+    margin-inline: auto;
+    transition: background-color 0.3s ease;
+  }
+}
+
+.delete-account {
+  font-weight: 600;
+  color: #333;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 1rem 0rem;
+  width: max-content;
+  gap: 1rem;
+}
+
+.delete-account > .trash-icon-account {
+  color: #006fb9;
+}
+
+.delete-account > .trash-icon-account:hover {
+  color: #005a9e;
+  cursor: pointer;
+}
+
+.modal-overlay-account {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent dark background */
+  backdrop-filter: blur(5px); /* Blur effect */
+  z-index: 1000; /* Ensure it appears above everything */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal Content */
+.modal-content-account {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  text-align: center;
+  z-index: 1001; /* Ensures content is above overlay */
+  /* max-width: 400px; */
+  width: max-content;
+}
+
+/* Modal Buttons */
+.modal-actions-account {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.confirm-button-account {
+  background-color: #006fb9;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.cancel-button-account {
+  background-color: rgb(236, 236, 236);
+  color: black;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.confirm-button-account:hover,
+.cancel-button-account:hover {
+  opacity: 0.9;
+}
