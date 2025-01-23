@@ -96,46 +96,16 @@ const IntegrationModal = ({
 
   return (
     <div className="modal-overlay">
-      <div className="modal-container">
-        <div className="close-modal">
-          <button className="close-button" onClick={onClose}>
-            &times;
-          </button>
-        </div>
-        <div className="modal-header">Add members from your domain</div>
-        <div>
-          <select
-            className="form-select-integration"
-            value={inputValue.account_id || ""}
-            onChange={handleSelectedAccount}
-          >
-            <option value="">Select Your Account Name</option>
-            {accounts.map((account) => (
-              <option key={account.account_id} value={account.account_id}>
-                {account.account_name}
-              </option>
-            ))}
-          </select>
-        </div>
-        <div>
+      <div className="bg-white py-10 px-10 w-1/3 relative rounded-lg">
+        <button className="absolute top-2 right-4 text-3xl" onClick={onClose}>
+          &times;
+        </button>
+        <div className="flex justify-center items-center mb-4 font-semibold text-lg">Add members from your domain</div>
+        <div className="px-6">
           <input
             type="text"
-            className="form-select-integration"
-            style={{
-              width: "85%",
-              marginBlockStart: "0rem",
-              padding: "0.6rem",
-            }}
-            placeholder="Enter your integration name"
-            value={inputValue.integration_name || ""}
-            onChange={handleIntegrationNameChange}
-          />
-        </div>
-        <div className="modal-body">
-          <input
-            type="text"
-            className="modal-input"
-            placeholder="Invite member by company email"
+            className="w-full h-10 p-4 mb-4 border border-gray-600 rounded-lg"
+            placeholder="Invite member by names or email ID"
             value={currentEmail} // Use the local email state
             onChange={(e) => setCurrentEmail(e.target.value)}
             onKeyPress={(e) => e.key === "Enter" && handleAddName()}
@@ -154,11 +124,11 @@ const IntegrationModal = ({
             ))}
           </div>
         </div>
-        <div className="modal-footer">
-          <button className="cancel-button" onClick={onClose}>
+        <div className="flex justify-between space-x-8 px-12">
+          <button className="h-10 w-full rounded-lg border-2 text-blue-500 border-blue-500" onClick={onClose}>
             Cancel
           </button>
-          <button className="invite-button" onClick={handleInvite}>
+          <button className="h-10 w-full bg-blue-500 text-white rounded-lg border-2 border-blue-500" onClick={handleInvite}>
             Invite
           </button>
         </div>

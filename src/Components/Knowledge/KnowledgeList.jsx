@@ -2,12 +2,12 @@ import React from "react";
 import "../Accounts/Accounts.css";
 
 const accountData = [
-  { id: 1, name: "Account 1", status: false },
-  { id: 2, name: "Account 2", status: true },
-  { id: 3, name: "Account 3", status: true },
-  { id: 4, name: "Account 4", status: false },
-  { id: 5, name: "Account 5", status: true },
-  { id: 6, name: "Account 6", status: false },
+  {knowledgeName: "Knowledge 1", name: "Account 1", integration: "Integration 1", status: false },
+  {knowledgeName: "Knowledge 2", name: "Account 2", integration: "Integration 2", status: true },
+  {knowledgeName: "Knowledge 3", name: "Account 3", integration: "Integration 3", status: true },
+  {knowledgeName: "Knowledge 4", name: "Account 4", integration: "Integration 4", status: false },
+  {knowledgeName: "Knowledge 5", name: "Account 5", integration: "Integration 5", status: true },
+  {knowledgeName: "Knowledge 6", name: "Account 6", integration: "Integration 6", status: false },
 ];
 
 export default function KnowledgeList() {
@@ -26,18 +26,20 @@ export default function KnowledgeList() {
       <table className="accounts-table">
         <thead className="account-header">
           <tr className="header-titles">
-            <th className="header-title account-count-header"></th>
-            <th className="header-title account-name-header">ACCOUNT NAME</th>
-            <th className="header-title created-header">STATUS</th>
-            <th className="header-title action-header"></th>
+            <th className="">Knowledge Name</th>
+            <th className="">Account Name</th>
+            <th className="">Integration</th>
+            <th className="">STATUS</th>
+            <th className=""></th>
           </tr>
         </thead>
         <tbody>
           {data.map((account) => (
             <tr key={account.id} className="account-row">
-              <td className="account-number">{account.id}</td>
-              <td className="account-name">{account.name}</td>
-              <td className="created-date">
+              <td className="">{account.knowledgeName}</td>
+              <td className="">{account.name}</td>
+              <td className="">{account.integration}</td>
+              <td className="">
                 <div style={{ flex: "2" }}>
                   <label
                     className="label"

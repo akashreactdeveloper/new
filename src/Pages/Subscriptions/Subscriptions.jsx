@@ -35,7 +35,7 @@ const Subscriptions = () => {
       <PageHeader header="Subscriptions" />
       <div className="subscription-account-select">
         <select name="" id="">
-          <option value="">Select Account</option>
+          <option value="">Select your account name</option>
           {accounts.map((account) => (
             <option key={account.value} value={account.value}>
               {account.label}

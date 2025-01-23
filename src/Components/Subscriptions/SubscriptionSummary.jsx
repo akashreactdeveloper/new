@@ -4,9 +4,9 @@ const SubscriptionSummary = () => {
   return (
     <div className="subscription-summary-container">
       <div className="subscription-current-plan">
-        <div className="subscription-summary-head">
-          <div className="subscription-summary-title">Current Plan Summary</div>
-          <div className="subscription-summary-upgrade">Upgrade</div>
+        <div className="bg-gray-100 flex justify-between p-2 items-center h-14">
+          <div className="font-semibold ml-4">Current Plan Summary</div>
+          <div className="w-20 bg-blue-600 rounded-lg text-white px-2 text-sm py-1 flex justify-between">Upgrade</div>
         </div>
         <div className="subscription-plan-detail">
           <div className="subscription-plan-name">
@@ -24,8 +24,8 @@ const SubscriptionSummary = () => {
         </div>
       </div>
       <div className="subscription-current-plan">
-        <div className="subscription-summary-head">
-          <div className="subscription-summary-title">Payment Method</div>
+        <div className="bg-gray-100 flex justify-between p-2 items-center h-14">
+          <div className="font-semibold ml-4">Payment Method</div>
         </div>
         <div className="subscription-plan-method">
           <div className="subscription-payment-method">

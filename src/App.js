@@ -39,11 +39,11 @@ function App() {
 
             <Route exact path="/accounts" element={<Accounts />} />
             <Route exact path="/integrations" element={<Integrations />} />
-            <Route exact path="/knowledgeConfiguration" element={user ? <KnowledgeConfig /> : <Navigate to="/login" />} />
-            <Route exact path="/subscriptions" element={user ? <Subscriptions /> : <Navigate to="/login" />} />
+            <Route exact path="/knowledgeConfiguration" element={<KnowledgeConfig />} />
+            <Route exact path="/subscriptions" element={<Subscriptions />} />
             <Route exact path="/accounts/create" element={<CreateAccount />} />
-            <Route exact path="/accounts/update/:id" element={user ? <CreateAccount /> : <Navigate to="/login" />} />
-            <Route exact path="/knowledgeConfiguration/create" element={user ? <CreateKnowledge /> : <Navigate to="/login" />} />
+            <Route exact path="/accounts/update/:id" element={<CreateAccount />} />
+            <Route exact path="/knowledgeConfiguration/create" element={<CreateKnowledge />} />
             <Route exact path="/integrations/add" element={<AddIntegration />} />
 
             <Route exact path="/subscriptions/detail" element={user ? <SubscribeDetails /> : <Navigate to="/login" />} />

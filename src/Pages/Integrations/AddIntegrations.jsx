@@ -30,7 +30,46 @@ const AddIntegrations = () => {
     <div style={{ height: "100vh" }}>
       <PageHeader header="Add Integrations" />
       <div className="select-account-integration">
-        <div className="account-integration-list">
+        <div className="flex justify-between">
+          <div>
+            <div className="mb-4">
+              <label
+                htmlFor="accountname"
+                className="block text-sm font-semibold mb-2 text-gray-700"
+              >
+                Account Name
+              </label>
+              <select
+                id="accountname"
+                className="mt-1 block w-full h-10 px-3 py-2 border border-gray-600 w-80 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                value={inputValue.account_id}
+                onChange={(e) =>
+                  setInputValue({ ...inputValue, account_id: e.target.value })
+                }
+              >
+                <option value="">Select your account name</option>
+                {/* Add options here */}
+              </select>
+            </div>
+            <div className="mb-4">
+              <label
+                htmlFor="integrationName"
+                className="block text-sm font-semibold mb-2 text-gray-700"
+              >
+                Integration Name
+              </label>
+              <input
+                type="text"
+                id="integrationName"
+                className="mt-1 block w-full px-3 h-10 py-2 border border-gray-600 w-80 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                placeholder="Enter your Integration Name"
+                value={inputValue.integration_name}
+                onChange={(e) =>
+                  setInputValue({ ...inputValue, integration_name: e.target.value })
+                }
+              />
+            </div>
+          </div>
           <div
             className="add-integrate-button"
             onClick={() => {

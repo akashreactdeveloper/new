@@ -66,11 +66,11 @@ const IntegrationList = ({ selectedCompany }) => {
         <thead className="integration-header">
           <tr className="header-titles">
             <th className="header-title integration-name-header">
-              DATA SOURCE
+              Data Source
             </th>
             <th className="header-title created-header">Integrations</th>
             <th className="header-title created-header">Members</th>
-            <th className="header-title created-header">STATUS</th>
+            <th className="header-title created-header">Status</th>
             <th className="header-title created-header">Created</th>
             <th className="header-title created-header">Modified</th>
             <th className="header-title integration-header"></th>
