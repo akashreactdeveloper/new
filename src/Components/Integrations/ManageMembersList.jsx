@@ -7,7 +7,7 @@ const membersData = [
     status: true,
     createdOn: "03.11.24, 11:00:00 AM",
     modifiedOn: "12.12.24, 12:00:00 PM",
-    logo: "https://s3-alpha-sig.figma.com/img/2ce7/01e3/317cc4b29dc4a2894b960cb43f681d8e?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ex6eDOjBQdGxKZXJ7TJ-I4XWwDwvfBN5X70QZ3Z~wBofgjkVLprxzUMwLzxTR2HKV98cqF~f7vztUUMR2dz1LZq0WtTgFv9XELrJtiKdxgA8VbBupz8shHkrXE~4w2vXrZhIQPTWy7GrKtBTV6PWs3yybTUUSNzYn6~etCoT7hNhknHfngffmZrkjJirnNRdwei3f~VCxFujgMp2b3bBmcWSxldkxcE3dvmH4~cEEGvzbuVhBqxn~8V6us1BYH2ZXL2C2ITm5-I7uf89q~mNcj9T6flTCkhN9xxpo5ZGlBkVE5i~VsYZ6ZdLgEaohMT3Rekp9nDZIgXf3bU4lQX-2Q__",
+    logo: "https://images.freeimages.com/fic/images/icons/2795/office_2013_hd/2000/outlook.png?fmt=webp&h=350",
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ const membersData = [
     status: false,
     createdOn: "03.11.24, 11:00:00 AM",
     modifiedOn: "12.12.24, 12:00:00 PM",
-    logo: "https://s3-alpha-sig.figma.com/img/c7d7/172c/54ab0ee7dd2186476bf2e6c7b808ac70?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=av1euKqADuf3Gr-Q0kIbnkSmcE1elQl3iRKsbnOmt~WfwBPc6llKExYYldjpOKl19Pm9bNre-X1P5dDpHTqUzdDok6zz78fA8~v6dPz9Rm46u~Css40S30C7fCse9db1WjDifINbYrXd4rpXHl545akdMTQGozzNfmOMBLO726Vs4ZTXw04Sdu1dPzmtz086uCCNC6AyQ7fUw0UNHZZVHT6HipKP5P4dnIwG1Zk3gWj4vksGtuR0kdHUaiB7ifJppuUgPftq8cDtd2a8SRJC~ysiT-Ll5yp4qSzFAcL8I785eUBeUXN4V5qWSsWp3e3dxAzLnIne8xj780GtUH5A-A__",
+    logo: "https://images.freeimages.com/fic/images/icons/2795/office_2013_hd/2000/outlook.png?fmt=webp&h=350",
   },
   {
     id: 3,
@@ -23,7 +23,7 @@ const membersData = [
     status: true,
     createdOn: "03.11.24, 11:00:00 AM",
     modifiedOn: "12.12.24, 12:00:00 PM",
-    logo: "https://s3-alpha-sig.figma.com/img/2ce7/01e3/317cc4b29dc4a2894b960cb43f681d8e?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ex6eDOjBQdGxKZXJ7TJ-I4XWwDwvfBN5X70QZ3Z~wBofgjkVLprxzUMwLzxTR2HKV98cqF~f7vztUUMR2dz1LZq0WtTgFv9XELrJtiKdxgA8VbBupz8shHkrXE~4w2vXrZhIQPTWy7GrKtBTV6PWs3yybTUUSNzYn6~etCoT7hNhknHfngffmZrkjJirnNRdwei3f~VCxFujgMp2b3bBmcWSxldkxcE3dvmH4~cEEGvzbuVhBqxn~8V6us1BYH2ZXL2C2ITm5-I7uf89q~mNcj9T6flTCkhN9xxpo5ZGlBkVE5i~VsYZ6ZdLgEaohMT3Rekp9nDZIgXf3bU4lQX-2Q__",
+    logo: "https://images.freeimages.com/fic/images/icons/2795/office_2013_hd/2000/outlook.png?fmt=webp&h=350",
   },
 ];
 

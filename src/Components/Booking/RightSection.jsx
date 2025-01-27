@@ -72,7 +72,7 @@ function RightSection() {
 
   return (
     <div className="right-section">
-      <h2 className="form-title">Get started with Gatepax AI</h2>
+      <h2 className="text-blue-600 font-semibold">Get started with Gatepax AI</h2>
       <form className="demo-form" onSubmit={handleSubmitBooking}>
         <input
           type="text"
@@ -91,22 +91,14 @@ function RightSection() {
           required
         />
         <input
-          type="tel"
-          name="phone"
-          placeholder="Phone Number"
-          value={formData.phone}
-          onChange={handleChange}
-          required
-        />
-        <input
           type="text"
           name="company"
-          placeholder="Company Name"
+          placeholder="Work Email ID"
           value={formData.company}
           onChange={handleChange}
           required
         />
-        <div className="date-picker">
+        <div className="w-40" style={{ width: 'calc(40% + 14px)' }}>
           <DatePicker
             selected={
               formData.requestedDemoDate
@@ -114,7 +106,7 @@ function RightSection() {
                 : null
             }
             onChange={handleDateChange}
-            placeholderText="Requested Demo Date"
+            placeholderText="Select Demo Date"
             className="date-input"
             dateFormat="yyyy-MM-dd"
             minDate={new Date()} // Optional: Disable past dates
@@ -130,7 +122,7 @@ function RightSection() {
           </a>
           .
         </p>
-        <button type="submit" className="demo-button" disabled={loading}>
+        <button type="submit" className="bg-blue-500 text-white py-4 rounded-lg" disabled={loading}>
           {loading ? "Booking..." : "Book a demo"}
         </button>
       </form>

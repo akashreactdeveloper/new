@@ -61,7 +61,7 @@ const AddIntegrations = () => {
               <input
                 type="text"
                 id="integrationName"
-                className="mt-1 block w-full px-3 h-10 py-2 border border-gray-600 w-80 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                className="mt-1 block w-full px-3 h-10 py-2 border border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
                 placeholder="Enter your Integration Name"
                 value={inputValue.integration_name}
                 onChange={(e) =>

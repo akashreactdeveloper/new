@@ -18,6 +18,7 @@ import CreateKnowledge from './Pages/KnowledgeConfig/CreateKnowledge';
 import Subscriptions from './Pages/Subscriptions/Subscriptions';
 import SubscribeDetails from './Pages/Subscriptions/SubscribeDetails';
 import ContactSales from './Pages/ContactSales/ContactSales';
+import ManageIntegration from './Pages/Integrations/ManageIntegration';
 
 function App() {
   const location = useLocation();
@@ -39,6 +40,7 @@ function App() {
 
             <Route exact path="/accounts" element={<Accounts />} />
             <Route exact path="/integrations" element={<Integrations />} />
+            <Route exact path="/manageIntegration" element={<ManageIntegration />} />
             <Route exact path="/knowledgeConfiguration" element={<KnowledgeConfig />} />
             <Route exact path="/subscriptions" element={<Subscriptions />} />
             <Route exact path="/accounts/create" element={<CreateAccount />} />
@@ -46,7 +48,7 @@ function App() {
             <Route exact path="/knowledgeConfiguration/create" element={<CreateKnowledge />} />
             <Route exact path="/integrations/add" element={<AddIntegration />} />
 
-            <Route exact path="/subscriptions/detail" element={user ? <SubscribeDetails /> : <Navigate to="/login" />} />
+            <Route exact path="/subscriptions/detail" element={<SubscribeDetails /> } />
             <Route exact path="/form" element={<Form />} />
             <Route exact path="/signup" element={user ? <Navigate to="/book" /> : <SignupPage type={"signup"} />} />
             <Route exact path="/login" element={user ? <Navigate to="/book" /> : <SignupPage type={"login"} />} />

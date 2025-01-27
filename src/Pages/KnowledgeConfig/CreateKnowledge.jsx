@@ -20,13 +20,13 @@ const CreateKnowledge = () => {
   return (
     <div style={{ height: "100vh" }}>
       <PageHeader header="Knowledge Configuration" />
-      <div className="knowledge-integration-name">
+      <div className="pl-10">
         <div className="knowledge-integration-label">
           Integration Name <span style={{ color: "red" }}>*</span>{" "}
         </div>
-        <div>
+        <div className="w-96 mb-4">
           <select name="" id="">
-            <option value="">Select Integration</option>
+            <option value="">Select the integration name</option>
             {integrations.map((integration) => (
               <option key={integration.value} value={integration.value}>
                 {integration.label}
@@ -34,35 +34,8 @@ const CreateKnowledge = () => {
             ))}
           </select>
         </div>
-        <div className="knowledge-integration-label">
-          Knowledge Name <span style={{ color: "red" }}>*</span>{" "}
-        </div>
-        <div>
-          <input
-            type="text"
-            className="knowledge-integration-input"
-            placeholder="Enter Knowledge Name"
-          />
-        </div>
-        <div className="knowledge-config-choice">
-          <div
-            className={selectedOption === "files" ? "active" : ""}
-            onClick={() => handleOptionClick("files")}
-            style={{ cursor: "pointer" }}
-          >
-            Files
-          </div>
-          <div
-            className={selectedOption === "mailbox" ? "active" : ""}
-            onClick={() => handleOptionClick("mailbox")}
-            style={{ cursor: "pointer" }}
-          >
-            Mailbox
-          </div>
-        </div>
       </div>
-      {selectedOption === "files" && <KnowledgeFiles />}
-      {selectedOption === "mailbox" && <KnowledgeMailBox />}
+      <KnowledgeFiles />
     </div>
   );
 };

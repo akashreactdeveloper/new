@@ -21,7 +21,7 @@ function LeftSection() {
         happen with <span className="highlight">Gatepax AI.</span>
       </h1>
       <img
-        src="https://via.placeholder.com/600x300"
+        src="https://s3-alpha-sig.figma.com/img/eb6a/ef8a/1891fabe1d216423cd49564ad783d63e?Expires=1738540800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Jsc-WTOz8U9X5YAb3e7M9-5dDxnamkcmd29GL2YTzlpHZ3~DIIpWi0pXNrh74zJPUr1wBawQsVpuovgwxJnWJM6Jj0DZi5BR9Fr1BnbQZnWSErGabIg12xHJ46I0I~SMMPTk7J9vcki4Lkbi8qQc9qt2UNNImQpQa88ARrLGuR8Y-TNBM1~d3d2IcC2nxVvgiJba2elYJR-iLkb8nDyvu2NRamVrhRLUxJCQUbUtLW7rsOhUC-yzbwtKMcfEBJCjzwfmeBPyGdOl5NIMdagYGmUhQ8qKJvvGGxwMpdm2yhQTQH8vgW8Qkx3~7vfau4ax-pbdIF4XceA1SIPkDg4Klg__"
         alt="Email Preview"
         className="email-preview"
       />

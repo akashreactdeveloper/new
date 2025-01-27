@@ -4,37 +4,37 @@ const integrationApps = [
   {
     name: "Google Calendar",
     description: "AI creates events from your conversations, ensuring you never miss an appointment.",
-    logo: "https://s3-alpha-sig.figma.com/img/5ad1/33a0/1423545cee58a15df364aa7d0c8c24f7?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CBrNrGu66yts1L-5XBQimwQEcRazPR-gk~K3lZj6xcHxlhmNhXxF~zCidnqG42KbWaFQLkJmM4XoqrTgcsF-TjfiRsJL7EHdv8PVwldKvsdBUPAn~kBzItmDxjc~CfrAqHhTZ3XdsZ-AIGubEETvYBkM2j3EM9CJ88YlSOVAW4n6KC1AL6UtDGqH3tbDR5ah4KT7b0YuvkypK6gOtAd8eQnn5vGHzQNZWQ8bUsM7vVW5R8hFTfXum3RXhq~sXwZEA-pXDEDhmlvW6rgF3LvFxQZTNbFeP6672uV5988vlG28H4N44QN8HK1c86BBGXhw-sdF5EO-6T9r8-oGxydf6w__",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Google_Calendar_icon_%282020%29.svg/768px-Google_Calendar_icon_%282020%29.svg.png",
     status: false,
   },
   {
     name: "Zoom",
     description: "Zoom Lorem ipsum dolor sit amet, constates odit per xime optio unde distinctio adipisci?",
-    logo: "https://s3-alpha-sig.figma.com/img/0af3/1833/bc25d9d75183c6c3b1255e3338e60b7d?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=V7SaOL9iS4HgbDblp2kFClCHqoBukKP9wZWX9PCBIj1nE0rOzuLf-QDF2k93WgcE1JcFSxqcJ4tZfG8Xj85l7ZTu8ejZNfNX9PJqdg212luIc182RYIM62gS8K~B-qXqsMoVhsOUgOCMpN3Z2c6PuP1Y~hu~H3KxGaSLuh1xYbHzRtG3LlA3pTEZBbHz~HDd1RxwVDEbLSWKZdt1ZxOAKiqf7bnRioSpcl~rwcU2ogK0jsjEMDYiQ6~ruGVTVhZ41YHcmvcE1uGHy2KuWP5WoWRIGlrKClP9uPy4anoLFV0Ltog2RhmuLgNw7iZoI3ppYRij2qSVdXgKGjP8e7PF4Q__",
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMykdxMhEsptbAL5zcCZFAvWnk-TxcG9LDZw&s", 
     status: false,
   },
   {
     name: "Outlook Email",
     description: "AI captures key insights from conversations, assisting in effective email drafting.",
-    logo: "https://s3-alpha-sig.figma.com/img/2ce7/01e3/317cc4b29dc4a2894b960cb43f681d8e?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ex6eDOjBQdGxKZXJ7TJ-I4XWwDwvfBN5X70QZ3Z~wBofgjkVLprxzUMwLzxTR2HKV98cqF~f7vztUUMR2dz1LZq0WtTgFv9XELrJtiKdxgA8VbBupz8shHkrXE~4w2vXrZhIQPTWy7GrKtBTV6PWs3yybTUUSNzYn6~etCoT7hNhknHfngffmZrkjJirnNRdwei3f~VCxFujgMp2b3bBmcWSxldkxcE3dvmH4~cEEGvzbuVhBqxn~8V6us1BYH2ZXL2C2ITm5-I7uf89q~mNcj9T6flTCkhN9xxpo5ZGlBkVE5i~VsYZ6ZdLgEaohMT3Rekp9nDZIgXf3bU4lQX-2Q__",
+    logo: "https://images.freeimages.com/fic/images/icons/2795/office_2013_hd/2000/outlook.png?fmt=webp&h=350", 
     status: false,
   },
   {
     name: "Outlook Calendar",
     description: "AI analyzes your emails and discussions, creating relevant events to keep you organized.",
-    logo: "https://s3-alpha-sig.figma.com/img/58fd/0059/24fdffc0ee7340c959af0cef4c1e6c42?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KoPMIiLfvp7T1i-NG5zfTgFp5eCFvhDJ8EHHxylRrvHwafdT4V~Hdc-6Sulhm8eJrxarMDgL2udbDnWFQ8lpkKkPhKkIYCD7moP-Ycm97CkKmCphbexOvgcytJ77FrZ42rnagTQglS07SsryrxjnmYtQf4JLPFtJjI8RRdKIjQVwOrI55-Bb9ttKFBv3pt8oKUkkYx0EO1YXU6bq7t2HwQLQXhFRQTFOHDMy9dnQ2vqDI2xv2VayDbbdAUtGd5mnTnDLrgh5zFKBQdOH2n77iq6pQX7ty9AiU2hZxH~tc743J9tQOMijEUxN29LcMOObrZ-OwH3lT0G1bsx39IkVmQ__",
+    logo: "https://img.icons8.com/?size=100&id=WnHyYA2ecNqL&format=png&color=000000",
     status: false,
   },
   {
     name: "Gmail",
     description: "AI helps you draft thoughtful emails quickly and builds a personalized knowledge base.",
-    logo: "https://s3-alpha-sig.figma.com/img/c7d7/172c/54ab0ee7dd2186476bf2e6c7b808ac70?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=av1euKqADuf3Gr-Q0kIbnkSmcE1elQl3iRKsbnOmt~WfwBPc6llKExYYldjpOKl19Pm9bNre-X1P5dDpHTqUzdDok6zz78fA8~v6dPz9Rm46u~Css40S30C7fCse9db1WjDifINbYrXd4rpXHl545akdMTQGozzNfmOMBLO726Vs4ZTXw04Sdu1dPzmtz086uCCNC6AyQ7fUw0UNHZZVHT6HipKP5P4dnIwG1Zk3gWj4vksGtuR0kdHUaiB7ifJppuUgPftq8cDtd2a8SRJC~ysiT-Ll5yp4qSzFAcL8I785eUBeUXN4V5qWSsWp3e3dxAzLnIne8xj780GtUH5A-A__",
+    logo: "https://mailmeteor.com/logos/assets/PNG/Gmail_Logo_512px.png",
     status: false,
   },
   {
     name: "Zapier",
     description: "AI helps you draft thoughtful emails quickly and builds a personalized knowledge base.",
-    logo: "https://s3-alpha-sig.figma.com/img/c7d7/172c/54ab0ee7dd2186476bf2e6c7b808ac70?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=av1euKqADuf3Gr-Q0kIbnkSmcE1elQl3iRKsbnOmt~WfwBPc6llKExYYldjpOKl19Pm9bNre-X1P5dDpHTqUzdDok6zz78fA8~v6dPz9Rm46u~Css40S30C7fCse9db1WjDifINbYrXd4rpXHl545akdMTQGozzNfmOMBLO726Vs4ZTXw04Sdu1dPzmtz086uCCNC6AyQ7fUw0UNHZZVHT6HipKP5P4dnIwG1Zk3gWj4vksGtuR0kdHUaiB7ifJppuUgPftq8cDtd2a8SRJC~ysiT-Ll5yp4qSzFAcL8I785eUBeUXN4V5qWSsWp3e3dxAzLnIne8xj780GtUH5A-A__",
+    logo: "https://scontent.fixc4-1.fna.fbcdn.net/v/t39.30808-6/292418746_5421201827901056_3218205840316965452_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=kwo7JQ6jiwcQ7kNvgFtz8lH&_nc_zt=23&_nc_ht=scontent.fixc4-1.fna&_nc_gid=AaQWceyBOgYk4qGbVJC-u8E&oh=00_AYBhk6fxj-I20lmx07W8gTL05OWDqiw4hNDSEfCy_N7QGg&oe=67996EF0",
     status: false,
   },
 ];
@@ -55,7 +55,7 @@ const IntegrationApps = ({ selectedIntegrations, setSelectedIntegrations }) => {
         {integrationApps.map((app, index) => (
           <div className="flex-col border border-gray-400 border-2 rounded-2xl w-80 mb-10 p-4" key={index}>
             <div className="flex flex-row items-center justify-between">
-              <img src={app.logo} alt={app.name} />
+              <img src={app.logo} alt={app.name} className="h-14 mb-2" />
               <label
                 className="app-toggle"
                 style={{

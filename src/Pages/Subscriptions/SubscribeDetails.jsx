@@ -59,8 +59,15 @@ const SubscribeDetails = () => {
         ))}
       </div>
       <div className="subscription-service-head">
-        <div className="subscription-service-title">Account Name</div>
-        <div className="subscription-service-name">Account 1</div>
+        <div className="subscription-service-title">Account Name <span className="text-red-600 ml-2 flex items-center"> * </span></div>
+        <select className="w-80 h-10">
+          <option value="" disabled selected>
+            Select your account name 
+          </option>
+          <option value="account1">Account 1</option>
+          <option value="account2">Account 2</option>
+          <option value="account3">Account 3</option>
+        </select>
       </div>
       <div className="subscription-content">
         {flow[activeStep - 1].component}
