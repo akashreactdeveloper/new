@@ -72,17 +72,20 @@ const InvitationStatusList = () => {
                 <div className="mailbox-info">{invitation.mailbox}</div>
               </td>
               <td>{invitation.memberName}</td>
-              <td
-                style={{
-                  color:
-                    invitation.status === "Pending"
-                      ? "orange"
-                      : invitation.status === "Accepted"
-                      ? "green"
-                      : "red",
-                }}
-              >
-                {invitation.status}
+              <td className="flex justify-start">
+                <div
+                  className="rounded-2xl text-black px-4 py-1 flex justify-center"
+                  style={{
+                    backgroundColor:
+                      invitation.status === "Pending"
+                        ? "#F2CC8F"
+                        : invitation.status === "Accepted"
+                        ? "#81B29A"
+                        : "#E07A5F",
+                  }}
+                >
+                  {invitation.status}
+                </div>
               </td>
               <td>{invitation.createdOn}</td>
               <td>{invitation.updatedOn}</td>

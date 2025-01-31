@@ -6,7 +6,7 @@ function Contact() {
     <div className="transform-section">
       <h1 className="transform-title">
         Ready to <span className="highlight-contact">Transform</span> Your
-        Business?
+        Business #
       </h1>
       <p className="transform-description">
         Contact us today to learn how GATEPAX AI can revolutionize your

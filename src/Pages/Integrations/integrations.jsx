@@ -19,11 +19,11 @@ const Home = () => {
         </div>
         <div className="bg-gray-100 px-10 py-6 flex flex-col items-center rounded-xl">
           <span className="font-bold text-lg">10</span>
-          <span className="text-sm">Approved Invitations</span>
+          <span className="text-sm">Pending Invitations</span>
         </div>
         <div className="bg-gray-100 px-10 py-6 flex flex-col items-center rounded-xl">
           <span className="font-bold text-lg">10</span>
-          <span className="text-sm">Approved Invitations</span>
+          <span className="text-sm">Declined Invitations</span>
         </div>
       </div>
       <div className="add-integration">
