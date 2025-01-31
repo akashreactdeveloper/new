@@ -17,7 +17,7 @@ const ButtonGoogle = () => {
       }
 
       const cacheBuster = `cacheBust=${new Date().getTime()}`;
-      const apiUrl = `http://localhost:8080/google?${cacheBuster}`;
+      const apiUrl = 'https://us-central1-gatepaxai-dev.cloudfunctions.net/frontend_auth/google';
 
       const res = await fetch(apiUrl, {
         method: "POST",
